@@ -1,3 +1,6 @@
+body{
+    display: flex;
+}
 nav{
     display:flex;
     justify-content: space-between;
@@ -21,6 +24,23 @@ nav{
     max-width: 100rem;
     margin: 0 auto;
 }
+.question{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height:100vh;
+    max-width: 100rem;
+    margin: 0 auto; 
+}
+.answers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 11rem;
+    
+}
 button{
     font-size: 1.35rem;
     padding: 1rem 0;
@@ -30,4 +50,8 @@ button{
     color: white;
     background-color: purple;
     border-radius: 8px;
+}
+.option{
+ display: flex;  
+ justify-content: flex-start;
 }
