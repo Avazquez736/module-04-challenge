@@ -24,6 +24,14 @@ nav{
     max-width: 100rem;
     margin: 0 auto;
 }
+.final{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+
+}
 .question{
     display:flex;
     flex-direction: column;
@@ -45,6 +53,12 @@ nav{
     display: flex;
     justify-content: center;
 }
+#restart-button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 a{
     font-size: 1.35rem;
     padding: 1rem 0;
