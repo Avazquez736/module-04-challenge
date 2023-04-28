@@ -41,7 +41,11 @@ nav{
     margin-right: 11rem;
     
 }
-button{
+#start-button{
+    display: flex;
+    justify-content: center;
+}
+a{
     font-size: 1.35rem;
     padding: 1rem 0;
     width: 15rem;
@@ -51,6 +55,12 @@ button{
     background-color: purple;
     border-radius: 8px;
 }
+a:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 purple;
+    background-color: violet;
+    transition: transform 150ms;
+  }
 .option{
  display: flex;  
  justify-content: flex-start;
